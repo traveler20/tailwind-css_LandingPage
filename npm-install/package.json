@@ -1,0 +1,21 @@
+{
+	"name": "election",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwindcss build src/styles.css -o src/styles_dev.css",
+		"build": "cross-env NODE_ENV=production tailwindcss build src/styles.css -o dist/styles.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.3.1",
+		"postcss": "^8.3.5",
+		"tailwindcss": "^2.2.4"
+	},
+	"dependencies": {
+		"cross-env": "^7.0.3"
+	}
+}
