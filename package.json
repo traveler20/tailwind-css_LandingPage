@@ -1,0 +1,25 @@
+{
+	"name": "tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss styles.css -o dist.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/traveler20/tailwindcss.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/traveler20/tailwindcss/issues"
+	},
+	"homepage": "https://github.com/traveler20/tailwindcss#readme",
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"postcss-cli": "^9.1.0",
+		"tailwindcss": "^2.2.4"
+	}
+}
