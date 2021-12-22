@@ -19,6 +19,7 @@
 	"homepage": "https://github.com/traveler20/tailwindcss#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.0",
+		"cssnano": "^5.0.14",
 		"postcss-cli": "^9.1.0",
 		"tailwindcss": "^2.2.4"
 	}
