@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "TAILWIND_MODE=watch postcss styles.css -o ./docs/asset/css/dist.css -w",
-		"build": "NODE_ENV=production postcss styles.css -o ./docs/asset/css/dist.css"
+		"dev": "TAILWIND_MODE=watch postcss styles.css -o ./docs/asset/css/style.css -w",
+		"build": "NODE_ENV=production postcss styles.css -o ./docs/asset/css/style.css"
 	},
 	"repository": {
 		"type": "git",
